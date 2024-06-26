@@ -21,7 +21,7 @@ const Circle = forwardRef<
     </div>
   );
 });
-
+Circle.displayName = 'Circle';
 export function AnimatedBeamDemo() {
   const containerRef = useRef<HTMLDivElement>(null);
   const div1Ref = useRef<HTMLDivElement>(null);
@@ -493,3 +493,4 @@ const Icons = {
     </svg>
   ),
 };
+
